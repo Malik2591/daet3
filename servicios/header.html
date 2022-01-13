@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAET 2.0</title>
+  <!-- Core CSS - Include with every page -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Page-Level Plugin CSS - Dashboard -->
+    <link href="css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+    <link href="css/plugins/timeline/timeline.css" rel="stylesheet">
+
+    <!-- SB Admin CSS - Include with every page -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+        <!-- Core Scripts - Include with every page -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+
+    <!-- Page-Level Plugin Scripts - Dashboard -->
+    <script src="js/plugins/morris/raphael-2.1.0.min.js"></script>
+    <script src="js/plugins/morris/morris.js"></script>
+
+    <!-- SB Admin Scripts - Include with every page -->
+    <script src="js/sb-admin.js"></script>
+
+    <!-- Page-Level Demo Scripts - Dashboard - Use for reference -->
+    <script src="js/demo/dashboard-demo.js"></script>
+</head>
+<body>
+ <div id="wrapper">
+
+       <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom: 0">
+           <div class="container">
+            <div class="navbar-header">
+                 <img src="img/logo.png" height="70" width="70" hspace="6" align="left">
+                 <a class="navbar-brand" href="index.php">Bienvenido a DAET <h4>Servicios Escolares</h4></a>
+            </div>
+      
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+
+                                <br>
+                            <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-user fa-fw"></i> Gestion de alumno.<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="registro_alumno.php" ><div>Registrar alumno</div></a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="Bajas_Alumnos.php"><div>Dar de baja alumno</div></a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="Buscar_Historial.php"><div>Historial Academico</div></a></li>
+                                    <li class="divider"></li>
+                                    <li><a href=""><div>Certificado Academico</div></a></li>
+                                    
+
+                                </ul>
+                            </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil fa-fw"></i> Gestion de grupo.<b class="caret"></b></a>
+                            <ul class="dropdown-menu dropdown-tasks">
+                                <li><a href="gestion_de_grupos.php">Listas de Asistencias</a></li>
+                                 <li class="divider"></li>
+                                <li><a href="calificar_gruo.php">Calificar por Grupo</a></li>
+                                 <li class="divider"></li>
+                                <li><a href="Buscar_Actas_de_Calificaciones.php">Actas de Calificaciones</a></li>
+                                 <li class="divider"></li>
+                                <li><a href="Buscar_Boleta.php">Generar Boletas de Calificaciones</a></li>
+                                 <li class="divider"></li>
+                                <li><a href="Buscar_certificado.php">Generar Certificado</a></li>                       
+                                 <li class="divider"></li>
+                                <li><a href="Cambiar_Grupo.php">Cambio de Grupos</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="calendario.php"><i class="fa fa-calendar fa-fw"></i> Calendario</a></li>
+                            <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-folder-open fa-fw"></i>Profesores.<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Profesores.php">Relacion Materia Profesor</a></li> 
+                                <li class="divider"></li>
+                                <li><a href="profesor.php">Alta de Profesor</a></li>
+                                 <li class="divider"></li>
+                                <li><a href="altas_carmod.php">Alta de Modulo</a></li>
+                                 <li class="divider"></li>
+                                <li><a href="alta_horario.php">Alta de Horario</a></li> 
+                            
+                                </ul>
+                                </li>
+                        <li><a href="../checkpoint/logout.php"><i class=" fa fa-power-off fa-fw"></i> Cerrar Sesion</a></li>
+
+            </ul>
+            <!-- /.navbar-top-links -->
+
+        </nav>
+        <!-- /.navbar-static-top -->
+</div> 
